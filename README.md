@@ -15,7 +15,6 @@ Y la clase derivada será aquella que obtiene propiedades y atributos de la clas
 ___
 ###  2.  Haz un diagrama UML donde se muestre la relación de herencia entre las  clases Figura, Rectángulo y Circulo como vimos en clase.
 
-___
 ![UML](https://github.com/im-light/Tarea3-Herencia/blob/master/imagenes/uml%20figura.png)
 ___
 ###  3.  Indica cuales son las clases base y las derivadas.
@@ -24,7 +23,7 @@ ___
 ```
 ___
 ###  4. ¿Que es herencia simple y herencia múltiple? ¿En c# se puede hacer herencia múltiple?
-___
+
 La herencia es simple cuando la clase derivada que estamos considerando sólo tiene una clase base.
 
 
@@ -45,7 +44,6 @@ ___
 ```
 ___
 #### 5.2 Explica para que nos sirve la palabra base
-___
 
 La palabra base es para mandar la información que ocupemos a el constructor de la clase padre o clase base 
 ___

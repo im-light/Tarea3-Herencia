@@ -19,6 +19,14 @@ ___
 ___
 ###  3.  Indica cuales son las clases base y las derivadas.
 ```c#
+abstract class Figura
+{
+    // esta seria mi clase base
+}
+class Circulo : Figura
+{
+    // esta seria mi clase derivada
+}
 
 ```
 ___

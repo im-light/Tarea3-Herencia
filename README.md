@@ -10,6 +10,6 @@ Y la clase derivada será aquella que obtiene propiedades y atributos de la clas
 ###  2.  Haz un diagrama UML donde se muestre la relación de herencia entre las  clases Figura, Rectángulo y Circulo como vimos en clase.
 
 
-![no encapsulamiento](C:\Users\omar_\Desktop\programacion orientada a objetos\Tarea3-Herencia\imagenes\uml figura.png)
+![UML](https://github.com/im-light/Tarea3-Herencia/blob/master/imagenes/uml%20figura.png)
 
 

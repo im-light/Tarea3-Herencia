@@ -15,8 +15,6 @@ Y la clase derivada será aquella que obtiene propiedades y atributos de la clas
 
 
 ![UML](https://github.com/im-light/Tarea3-Herencia/blob/master/imagenes/uml%20figura.png)
-
-
 ###  3.  Indica cuales son las clases base y las derivadas.
 
 ###  4. ¿Que es herencia simple y herencia múltiple? ¿En c# se puede hacer herencia múltiple?

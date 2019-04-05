@@ -17,13 +17,13 @@ Y la clase derivada será aquella que obtiene propiedades y atributos de la clas
 
 ###  4. ¿Que es herencia simple y herencia múltiple? ¿En c# se puede hacer herencia múltiple?
 
-
+La herencia es simple cuando la clase derivada que estamos considerando sólo tiene una clase base.
+que una clase puede heredar comportamientos y características de más de una superclase.
 En c# no se puede hacer herencia múltiple ya que no se sabría con exactitud de cual clase se va a heredar por lo que habría ambigüedad 
 
 ###  5. Escribe el programa de Figura como vimos en clase, donde agregues varios tipos de figuras a una lista y recorre la lista llamando a un metodo de las figuras,además :
 #### 5.1 Se sobrecarguen los constructores y se acceda a los constructores de la clase base 
 #### 5.2 Explica para que nos sirve la palabra base
-
 
 La palabra base es para mandar la información que ocupemos a el constructor de la clase padre o clase base 
 

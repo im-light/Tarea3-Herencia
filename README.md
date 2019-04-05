@@ -19,6 +19,9 @@ Y la clase derivada será aquella que obtiene propiedades y atributos de la clas
 
 La herencia es simple cuando la clase derivada que estamos considerando sólo tiene una clase base.
 que una clase puede heredar comportamientos y características de más de una superclase.
+
+
+
 En c# no se puede hacer herencia múltiple ya que no se sabría con exactitud de cual clase se va a heredar por lo que habría ambigüedad 
 
 ###  5. Escribe el programa de Figura como vimos en clase, donde agregues varios tipos de figuras a una lista y recorre la lista llamando a un metodo de las figuras,además :

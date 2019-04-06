@@ -15,7 +15,7 @@ Y la clase derivada será aquella que obtiene propiedades y atributos de la clas
 ___
 ###  2.  Haz un diagrama UML donde se muestre la relación de herencia entre las  clases Figura, Rectángulo y Circulo como vimos en clase.
 
-![UML](https://github.com/im-light/Tarea3-Herencia/blob/master/imagenes/uml%20figura.png)
+![UML](https://github.com/im-light/Tarea3-Herencia/blob/master/imagenes/figura%20UML.png)
 ___
 ###  3.  Indica cuales son las clases base y las derivadas.
 ```c#

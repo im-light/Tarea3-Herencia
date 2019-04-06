@@ -14,7 +14,7 @@ namespace figuras01_01
             return String.Format("{0},{1}", x, y);
         }
     }
-     abstract class Figura
+    class Figura
     {
         public Vector2d position;
         public string fill ,border;
@@ -29,7 +29,10 @@ namespace figuras01_01
             border= "black";
         }
 
-        public abstract void Dibuja();
+        public virtual void Dibuja()
+        {
+
+        }
 
     }
 
@@ -63,10 +66,11 @@ namespace figuras01_01
         
      }
 
-     public override void Dibuja() 
+     public new void Dibuja() 
      {
-         fill="red";
-         Console.WriteLine("Se dibuja un Rectangulo en {0} de color {1}", position, fill);
+         fill="blue";
+         Console.WriteLine("Se dibuja un rectangulo en {0} de color {1}", position, fill);
+
      }
     }
     class Triangulo:Figura
@@ -80,7 +84,7 @@ namespace figuras01_01
         {
             this.altura=3;
         }
-        public override void Dibuja() 
+        public new void Dibuja() 
      {
          fill="orange";
          Console.WriteLine("Se dibuja un triangulo en {0} de color {1}", position, fill);

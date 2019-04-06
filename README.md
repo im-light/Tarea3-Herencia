@@ -150,7 +150,32 @@ namespace figuras01_01
 ___
 #### 5.1 Se sobrecarguen los constructores y se acceda a los constructores de la clase base 
 ```c#
+    class Figura
+    {
+        public Vector2d position;
+        public string fill ,border;
 
+        public Figura():this( new Vector2d(100, 100))
+        {
+            
+        }
+        public Figura(Vector2d pos)
+        {
+            position= pos;
+            border= "black";
+        }
+    }
+    class Circulo : Figura
+    {
+     private int radio;
+     public Circulo(Vector2d pos, int radio):base(pos)
+     {
+         this.radio= radio;
+     }
+     public Circulo ():base()
+     {
+         this.radio= 10;
+     }
 ```
 ___
 #### 5.2 Explica para que nos sirve la palabra base
